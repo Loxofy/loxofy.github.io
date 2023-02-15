@@ -3,7 +3,7 @@ import openAi from "./chatgpt";
 const query = async (message) => {
   const res = await openAi
     .createCompletion({
-      model: "text-curie-001",
+      model: "text-davinci-003",
       prompt: message,
       temperature: 1,
       max_tokens: 1000,
@@ -14,7 +14,7 @@ const query = async (message) => {
     .then((res) => res.data.choices[0].text)
     .catch(
       (err) =>
-        `Roomee was unable to find you answer right now maybe you try later ${err}`
+        `WallbergAI kunde inte besvara din fråga. ${err}`
     );
 
   return res;

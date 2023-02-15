@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAfMz-_4imJGK6MLhXT79h7sPEfnT6c-lw",
-  authDomain: "romee-c137a.firebaseapp.com",
-  projectId: "romee-c137a",
-  storageBucket: "romee-c137a.appspot.com",
-  messagingSenderId: "185969499146",
-  appId: "1:185969499146:web:8a919ad30e2b1cb03693f3"
+  apiKey: "AIzaSyB1t5UnnUiqCnJ3d6AWF9fhGrOvOCg8VN4",
+  authDomain: "wallbergai.firebaseapp.com",
+  projectId: "wallbergai",
+  storageBucket: "wallbergai.appspot.com",
+  messagingSenderId: "696725851511",
+  appId: "1:696725851511:web:93bd163e1a630fcf0da572"
   // apiKey: process.env.FIREBASE_API_KEY,
   // authDomain: process.env.FIREBASE_AUTH_DOMAIN,
   // projectId: process.env.FIREBASE_PROJECT_ID,
